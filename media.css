@@ -1,0 +1,36 @@
+/* For screens smaller than or equal to 768px */
+@media screen and (max-width: 768px) {
+   
+    .welcome-section{
+        padding:20px;
+    }
+
+
+
+    .chefs-section .chef-person{
+        /* background-color: pink; */
+        margin-bottom: 25%;
+        padding: 5%;
+        margin-left:4%;
+        margin-right:3%;
+        box-shadow: -2px 4px 89px -26px rgba(128,117,117,0.75);
+
+      }
+      
+    .chefs-section .chef-person .profile{
+        height:250px;
+        width:250px;
+        margin-left: 19%;
+        margin-top:8%;
+      }
+
+      .down-media{
+        margin-left: -6.5%;
+      }
+    .footer-area .f1{
+       padding-left:30px;
+       
+      }
+
+  }
+  

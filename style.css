@@ -1,0 +1,357 @@
+.navbar{
+  background:transparent;
+  color: white;
+}
+.nav-link{
+  color:white;
+  margin-left:20px;
+  transition: all 1s;
+}
+.active{
+  color:orangered;
+}
+
+.nav-link:hover{
+  color:orangered;
+}
+.book{
+  background-color: orangered;
+  margin-left:10px;
+  padding: 2% 16%;
+  
+
+}
+.book:hover{
+  background-color: orange;
+  
+}
+
+.book:hover a{
+  color:white;
+}
+
+
+.book a{
+  text-align: center;
+  color:white;
+  text-decoration: none;
+}
+
+.top-area{
+  /* background-image:url('img/pic1.jpg'); */
+  background-color: black;
+  background-size: cover;
+}
+
+.hero-section h1{
+  margin-top: 20%;
+  font-size: 386%;
+  color: white;
+  padding-left: 18%;
+}
+.hero-section h6{
+  color: white;
+  padding-left: 18%;
+}
+.book2{
+  background-color: orangered;
+  color: white;
+  width: 53%;
+  height: 8%;
+  margin-left: 18%;
+  margin-top: 5;
+  margin-top: 2%;
+}
+.book2:hover{
+  background-color:orange;
+}
+
+.book2 a{
+  color:white;
+  text-decoration: none;
+  padding-left:33%;
+  line-height:2.3;
+
+
+}
+
+
+
+.rotate-img {
+  height: 89%;
+  width: 79%;
+  margin-top: 9%;
+  margin-left: 9%;
+  animation: rotation 50s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.service h2{
+  padding-bottom:4%;
+  color:white;
+}
+
+.box{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition:all 0.5s;
+}
+.box i{
+  font-size:60px;
+  padding-left:5% ;
+  margin-bottom:20px;
+  margin-top:20px;
+  color:orangered;
+}
+.box:hover{
+  background-color:orangered;
+  color:white;
+}
+.box:hover i{
+  color:white;
+}
+
+
+.box h5{
+  padding:0 5%;
+}
+
+.box p{
+  padding:0 5%;
+  padding-bottom:16%;
+}
+
+
+.image-box{
+   height: 107%;
+    width: 98%;
+    margin-top: 21%;
+    display: flex;
+    flex-wrap:wrap; 
+
+}
+.image-box .image1{
+    height: 50%;
+    width: 48%;
+}
+
+.image-box .image2{
+    height: 33%;
+    width: 34%;
+    margin-left: 3%;
+    margin-top: 18%;
+}
+
+.image-box .image3{
+    height: 33%;
+    width: 34%;
+    margin-left: 14%;
+    margin-top: -13%;
+}
+
+.image-box .image4{
+   height: 23%;
+    width: 25%;
+    margin-left: 3%;
+    margin-top: -10%;
+
+}
+
+
+.welcome-section h6{
+  color:orangered;
+  margin-top:20%;
+}
+
+.welcome-section h2 i{
+  color:orangered;
+}
+
+.fifteen{
+  font-size: 40px;
+  color:orangered;
+  border-left:4px solid orangered;
+}
+
+.fifty{
+  font-size: 40px;
+  color:orangered;
+  border-left:4px solid orangered;
+}
+.readmore{
+    background-color: orangered;
+    width: 30%;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    padding: 3% 4%;
+}
+.readmore:hover{
+  background-color: orange;
+}
+
+.item-section{
+  margin-top:20%;
+}
+
+.item-section .menu a i{
+  color:orangered;
+  padding-top:2%;
+}
+.item-section .menu a{
+  padding-top:20%;
+  margin-left:3%;
+  font-size: 150%;
+  text-decoration: none;
+  color:black;
+}
+.item-section .menu hr{
+  color:gray;
+  width:100%;
+
+}
+
+.item-section .menu-list .menu-items{
+  margin-top:4%;
+  width:100%;
+  /* background-color: red; */
+  height:100px;
+  
+}
+.item-section .menu-list .menu-items img{
+  height:100%;
+  /* width:20%; */
+}
+.item-section .menu-list .menu-items h5{
+  display: inline;
+}
+
+.item-section .menu-list .menu-items h5 span{
+  padding-left:30%;
+}
+
+.item-section .menu-list .menu-items hr{
+  color:gray;
+  width:40%;
+
+}
+
+
+
+.chefs-section{
+  margin-top:10%;
+}
+.chefs-section .chef-person{
+  /* background-color: pink; */
+  margin-bottom: 25%;
+  padding: 10%;
+  height: 78%;
+  box-shadow: -2px 4px 89px -26px rgba(128,117,117,0.75);
+  position: relative;
+}
+
+.down-media{
+  position: absolute;
+  background-color: antiquewhite;
+  height: 50px;
+  width:100%;
+  margin-left: -10%;
+}
+
+.chefs-section .chef-person .profile{
+  height:200px;
+  width:200px;
+  background-color: aqua;
+  border-radius: 50%;
+  margin-left: 2%;
+  overflow: hidden;
+  margin-bottom: 7%;
+ 
+}
+
+.chefs-section .chef-person .profile img{
+  width:100%;
+  height:100%;
+  transition: all 1s;
+}
+
+.chefs-section .chef-person:hover .profile img{
+  transform: scale(1.2,1.2);
+}
+
+
+.footer-area{
+  background-color:rgb(15, 15, 41);
+  margin-top:10%;
+}
+
+.footer-area h4 {
+  color:orangered;
+  margin-top:5%;
+}
+
+.footer-area h6 {
+  color:white;
+}
+.footer-area h6 a{
+  text-decoration: none;
+  color:white;
+}
+.footer-area .f1{
+  padding-top: 100px;
+}
+.icon-box{
+  height:40px;
+  width:40px;
+  border-radius:50%;
+  border:1px solid white;
+  float:left;
+  margin-right:10px;
+}
+.icon-box:hover{
+  background-color:white;
+}
+.icon-box:hover i{
+  color:orangered;
+}
+
+.icon-box i{
+  color:white;
+  margin-left:10px;
+  margin-top:10px;
+}
+input{
+  height:50px;
+  border:1px solid orangered;
+}
+
+hr{
+  color:white;
+}
+
+.bottom-nav h6 {
+  display: inline;
+  margin-left:10px;
+}
+.scroll{
+  height:50px;
+  width:50px;
+  background-color: orangered;
+  position:fixed;
+  bottom:20px;
+  right:50px;
+}
+
+.scroll i{
+  color:white;
+  margin-left:15px;
+  margin-top:15px;
+  font-size:20px;
+}
