@@ -1,0 +1,341 @@
+.logo h2{
+    color: #FEAC31;
+    margin-left: 24%;
+    font-size: 277%;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 3%;
+  
+  }
+  .navbar{
+    background:transparent;
+    color: white;
+    margin-top: 2%;
+    
+  }
+  
+  
+  .nav-link{
+    color:white;
+    margin-left:20px;
+    transition: all 1s;
+  }
+  
+  .about{
+    color:orange;
+  }
+  .nav-link:hover{
+    color:#FEAC31;
+  }
+  .book{
+    background-color: #FEAC31;
+    margin-left:10px;
+    padding: 2% 16%;
+    box-shadow: inset 5px 5px 15px rgb(223, 123, 10);
+    border-radius:7px;
+    
+  
+  }
+  
+  
+  .book:hover a{
+    color:white;
+  }
+  
+  
+  .book a{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    
+  }
+  
+  .book2 a{
+    text-align: center;
+  }
+  
+  .top-area{
+    background:linear-gradient(rgba(19, 15, 15, 0.8),rgba(56, 52, 52, 0.8)),url('img/pic1.jpg');
+    background-attachment: fixed;
+    background-color:rgb(36, 36, 61);
+    background-size: cover;
+  }
+  .top-area h1{
+    color:white;
+    font-size: 421%;
+    text-align: center;
+    padding-top:5%;
+  }
+  .top-area h6{
+    color:white;
+    padding-bottom: 12%;
+    text-align: center;
+  }
+ 
+  
+
+  
+.image-box{
+    height: 107%;
+     width: 98%;
+     margin-top: 21%;
+     display: flex;
+     flex-wrap:wrap; 
+ 
+ }
+ .image-box .image1{
+     height: 50%;
+     width: 48%;
+ }
+ 
+ .image-box .image2{
+     height: 33%;
+     width: 34%;
+     margin-left: 3%;
+     margin-top: 18%;
+ }
+ 
+ .image-box .image3{
+     height: 33%;
+     width: 34%;
+     margin-left: 14%;
+     margin-top: -13%;
+ }
+ 
+ .image-box .image4{
+    height: 23%;
+     width: 25%;
+     margin-left: 3%;
+     margin-top: -10%;
+ 
+ }
+ 
+.welcome-section h6{
+    color:#FEAC31;
+    margin-top:20%;
+    font-family: "Ubuntu", sans-serif;
+  
+  }
+  
+  .welcome-section h2{
+    font-family: "Ubuntu", sans-serif;
+  
+  }
+  .welcome-section h2 i{
+    color:#FEAC31;
+    
+  }
+  
+  .fifteen{
+    font-size: 40px;
+    color:#FEAC31;
+    border-left:4px solid #FEAC31;
+  }
+  
+  .fifty{
+    font-size: 40px;
+    color:#FEAC31;
+    border-left:4px solid #FEAC31;
+  }
+  .readmore{
+      background-color: #FEAC31;
+      width: 30%;
+      margin-top: 5%;
+      text-align: center;
+      color: white;
+      padding: 3% 4%;
+  }
+  .readmore:hover{
+    background-color: orange;
+  }
+
+
+  
+
+.chefs-section{
+    margin-top:10%;
+    
+  }
+  .chefs-section .chef-person{
+    /* background-color: pink; */
+    margin-bottom: 25%;
+    padding: 10%;
+    height: 78%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    position: relative;
+  }
+  
+  /* .down-media{
+    position: absolute;
+    height: 50px;
+    width:100%;
+    margin-left: -10%;
+    bottom: 0px;
+    border-bottom: 1px solid orange;
+  
+  }
+  
+  .down-media:hover{
+    transform:translateY(50px)
+  } */
+  
+  
+  .chefs-section .chef-person .profile{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-left: 2%;
+    overflow: hidden;
+    margin-bottom: 7%;
+   
+  }
+  
+  .chefs-section .chef-person .profile img{
+    width:100%;
+    height:100%;
+    transition: all 1s;
+  }
+  
+  .chefs-section .chef-person:hover .profile img{
+    transform: scale(1.2,1.2);
+  }
+  
+  .chefs-section .chef-person:hover .down-media{
+    transform:translateY(50px);
+    }
+  
+
+.footer-area{
+    background-color:rgb(15, 15, 41);
+    margin-top:10%;
+  }
+  
+  .footer-area h4 {
+    color:orangered;
+    margin-top:5%;
+  }
+  
+  .footer-area h6 {
+    color:white;
+  }
+  .footer-area h6 a{
+    text-decoration: none;
+    color:white;
+  }
+  .footer-area .f1{
+    padding-top: 100px;
+  }
+  .icon-box{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border:1px solid white;
+    float:left;
+    margin-right:10px;
+  }
+  .icon-box:hover{
+    background-color:white;
+  }
+  .icon-box:hover i{
+    color:orangered;
+  }
+  
+  .icon-box i{
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+  }
+  input{
+    height:50px;
+    border:1px solid orangered;
+  }
+  
+  hr{
+    color:white;
+  }
+  
+  .bottom-nav h6 {
+    display: inline;
+    margin-left:10px;
+  }
+  .scroll{
+    height:50px;
+    width:50px;
+    background-color: orangered;
+    position:fixed;
+    bottom:20px;
+    right:50px;
+  }
+  
+  .scroll i{
+    color:white;
+    margin-left:15px;
+    margin-top:15px;
+    font-size:20px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .navbar{
+        background:transparent;
+        color: white;
+        margin-top: -11%;
+      }
+  
+      .logo h2{
+        margin-left: 5%;
+      
+      }
+      .book{
+        text-align: center;
+      }
+  
+      .book2{
+        width: 50%;
+        height: 12%;
+        margin-left:24%;
+        margin-top:5%;
+        border-radius: 9px;
+      }
+      
+      .hero-section h1{
+       text-align: center;
+       padding-left: 0%;
+       font-size: 40px;
+      }
+      .hero-section h6{
+       text-align: center;
+       padding-left: 0%;
+       font-size: 15px;
+  
+        
+      }
+    .footer-area .f1{
+        padding-left:30px;
+
+     }
+
+     
+    .chefs-section .chef-person{
+        /* background-color: pink; */
+        margin-bottom: 25%;
+        padding: 5%;
+        margin-left:4%;
+        margin-right:3%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+      }
+      
+    .chefs-section .chef-person .profile{
+        height:250px;
+        width:250px;
+        margin-left: 19%;
+        margin-top:8%;
+      }
+
+      .down-media{
+        margin-left: -6.5%;
+      }
+
+}

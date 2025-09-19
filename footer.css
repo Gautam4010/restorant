@@ -1,0 +1,68 @@
+.footer-area{
+    background-color:rgb(15, 15, 41);
+    margin-top:10%;
+  }
+  
+  .footer-area h4 {
+    color:orangered;
+    margin-top:5%;
+  }
+  
+  .footer-area h6 {
+    color:white;
+  }
+  .footer-area h6 a{
+    text-decoration: none;
+    color:white;
+  }
+  .footer-area .f1{
+    padding-top: 100px;
+  }
+  .icon-box{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border:1px solid white;
+    float:left;
+    margin-right:10px;
+  }
+  .icon-box:hover{
+    background-color:white;
+  }
+  .icon-box:hover i{
+    color:orangered;
+  }
+  
+  .icon-box i{
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+  }
+  input{
+    height:50px;
+    border:1px solid orangered;
+  }
+  
+  hr{
+    color:white;
+  }
+  
+  .bottom-nav h6 {
+    display: inline;
+    margin-left:10px;
+  }
+  .scroll{
+    height:50px;
+    width:50px;
+    background-color: orangered;
+    position:fixed;
+    bottom:20px;
+    right:50px;
+  }
+  
+  .scroll i{
+    color:white;
+    margin-left:15px;
+    margin-top:15px;
+    font-size:20px;
+  }

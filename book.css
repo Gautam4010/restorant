@@ -1,0 +1,186 @@
+.logo h2{
+    color: #FEAC31;
+    margin-left: 24%;
+    font-size: 277%;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 3%;
+  
+  }
+  .navbar{
+    background:transparent;
+    color: white;
+    margin-top: 2%;
+    
+  }
+  
+  
+  .nav-link{
+    color:white;
+    margin-left:20px;
+    transition: all 1s;
+  }
+
+  
+  .nav-link:hover{
+    color:#FEAC31;
+  }
+  .book{
+    background-color: #FEAC31;
+    margin-left:10px;
+    padding: 2% 16%;
+    box-shadow: inset 5px 5px 15px rgb(223, 123, 10);
+    border-radius:7px;
+    
+  
+  }
+  
+  
+  .book:hover a{
+    color:white;
+  }
+  
+  
+  .book a{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    
+  }
+  
+  .book2 a{
+    text-align: center;
+  }
+  
+  .top-area{
+    background:linear-gradient(rgba(19, 15, 15, 0.8),rgba(56, 52, 52, 0.8)),url('img/pic1.jpg');
+    background-attachment: fixed;
+    background-color:rgb(36, 36, 61);
+    background-size: cover;
+  }
+  .top-area h1{
+    color:white;
+    font-size: 421%;
+    text-align: center;
+    padding-top:5%;
+  }
+  .top-area h6{
+    color:white;
+    padding-bottom: 12%;
+    text-align: center;
+  }
+  .booking-form{
+    padding-top:2%;
+  }
+
+  .booking-form .form{
+    background-color:#FEAC31;
+    color:white;
+    padding-top: 3%;
+    padding-left: 5%;
+    border-top-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    
+   
+  }
+
+  .row1{
+    width:40%;
+    padding: 2%;
+    margin-right:3%;
+    margin-bottom:3%;
+    
+  }
+
+  .row2{
+    width:40%;
+    padding: 2%;
+    margin-right:3%;
+    margin-bottom:3%;
+  }
+  
+  .message{
+    width:84%;
+    padding: 7%;
+    margin-right:3%;
+    margin-bottom:3%;
+  }
+  .button{
+    width:84%;
+    margin-bottom:5%; 
+  }
+.form-left img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    
+}
+
+.footer-area{
+    background-color:rgb(15, 15, 41);
+    margin-top:10%;
+  }
+  
+  .footer-area h4 {
+    color:orangered;
+    margin-top:5%;
+  }
+  
+  .footer-area h6 {
+    color:white;
+  }
+  .footer-area h6 a{
+    text-decoration: none;
+    color:white;
+  }
+  .footer-area .f1{
+    padding-top: 100px;
+  }
+  .icon-box{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border:1px solid white;
+    float:left;
+    margin-right:10px;
+  }
+  .icon-box:hover{
+    background-color:white;
+  }
+  .icon-box:hover i{
+    color:orangered;
+  }
+  
+  .icon-box i{
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+  }
+  input{
+    height:50px;
+    border:1px solid orangered;
+  }
+  
+  hr{
+    color:white;
+  }
+  
+  .bottom-nav h6 {
+    display: inline;
+    margin-left:10px;
+  }
+  .scroll{
+    height:50px;
+    width:50px;
+    background-color: orangered;
+    position:fixed;
+    bottom:20px;
+    right:50px;
+  }
+  
+  .scroll i{
+    color:white;
+    margin-left:15px;
+    margin-top:15px;
+    font-size:20px;
+  }
