@@ -1,220 +1,276 @@
-.logo h2{
-    color: #FEAC31;
-    margin-left: 24%;
-    font-size: 277%;
-    font-family: "Ubuntu", sans-serif;
-    margin-top: 3%;
-  
-  }
-  .navbar{
-    background:transparent;
-    color: white;
-    margin-top: 2%;
-    
-  }
-  
-  
-  .nav-link{
-    color:white;
-    margin-left:20px;
-    transition: all 1s;
-  }
-  .service{
-    color:orange;
-  }
-  .nav-link:hover{
-    color:#FEAC31;
-  }
-  .book{
-    background-color: #FEAC31;
-    margin-left:10px;
-    padding: 2% 16%;
-    box-shadow: inset 5px 5px 15px rgb(223, 123, 10);
-    border-radius:7px;
-    
-  
-  }
-  
-  
-  .book:hover a{
-    color:white;
-  }
-  
-  
-  .book a{
-    text-align: center;
-    color:white;
-    text-decoration: none;
-    
-  }
-  .top-area{
-    background:linear-gradient(rgba(19, 15, 15, 0.8),rgba(56, 52, 52, 0.8)),url('img/pic1.jpg');
-    background-attachment: fixed;
-    background-color:rgb(36, 36, 61);
-    background-size: cover;
-  }
-  .top-area h1{
-    color:white;
-    font-size: 421%;
-    text-align: center;
-    padding-top:5%;
-  }
-  .top-area h6{
-    color:white;
-    padding-bottom: 12%;
-    text-align: center;
-  }
-
-  
-#service h6{
-  padding-top:5%;
-  color:#FEAC31;
+.logo h2 {
+  color: #feac31;
+  margin-left: 24%;
+  font-size: 277%;
   font-family: "Ubuntu", sans-serif;
-  
-
-  
+  margin-top: 3%;
 }
-#service h1{
+.navbar {
+  background: transparent;
+  color: white;
+  margin-top: 2%;
+}
+
+.nav-link {
+  color: white;
+  margin-left: 20px;
+  transition: all 1s;
+}
+.service {
+  color: orange;
+}
+.nav-link:hover {
+  color: #feac31;
+}
+.book {
+  background-color: #feac31;
+  margin-left: 10px;
+  padding: 2% 16%;
+  box-shadow: inset 5px 5px 15px rgb(223, 123, 10);
+  border-radius: 7px;
+}
+
+.book:hover a {
+  color: white;
+}
+
+.book a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.top-area {
+  background: linear-gradient(rgba(19, 15, 15, 0.8), rgba(56, 52, 52, 0.8)),
+    url("img/pic1.jpg");
+  background-attachment: fixed;
+  background-color: rgb(36, 36, 61);
+  background-size: cover;
+}
+.top-area h1 {
+  color: white;
+  font-size: 421%;
+  text-align: center;
+  padding-top: 5%;
+}
+.top-area h6 {
+  color: white;
+  padding-bottom: 12%;
+  text-align: center;
+}
+
+#service h6 {
+  padding-top: 5%;
+  color: #feac31;
+  font-family: "Ubuntu", sans-serif;
+}
+#service h1 {
   padding-bottom: 4%;
   font-family: "Ubuntu", sans-serif;
-  text-shadow: 4px 0px 8px rgba(0,0,0,0.33);
-
+  text-shadow: 4px 0px 8px rgba(0, 0, 0, 0.33);
 }
 
-
-.box{
+.box {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  transition:all 0.5s;
+  transition: all 0.5s;
 }
-.box i{
-  font-size:60px;
-  padding-left:5% ;
-  margin-bottom:20px;
-  margin-top:20px;
-  color:#FEAC31;
+.box i {
+  font-size: 60px;
+  padding-left: 5%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #feac31;
 }
-.box:hover{
-  background-color:#FEAC31;
-  color:white;
+.box:hover {
+  background-color: #feac31;
+  color: white;
 }
-.box:hover i{
-  color:white;
-}
-
-
-.box h5{
-  padding:0 5%;
+.box:hover i {
+  color: white;
 }
 
-.box p{
-  padding:0 5%;
-  padding-bottom:16%;
+.box h5 {
+  padding: 0 5%;
+}
+
+.box p {
+  padding: 0 5%;
+  padding-bottom: 16%;
+}
+
+.image-box {
+  height: 107%;
+  width: 98%;
+  margin-top: 21%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-box .image1 {
+  height: 50%;
+  width: 48%;
+}
+
+.image-box .image2 {
+  height: 33%;
+  width: 34%;
+  margin-left: 3%;
+  margin-top: 18%;
+}
+
+.image-box .image3 {
+  height: 33%;
+  width: 34%;
+  margin-left: 14%;
+  margin-top: -13%;
+}
+
+.image-box .image4 {
+  height: 23%;
+  width: 25%;
+  margin-left: 3%;
+  margin-top: -10%;
+}
+
+.footer-area {
+  background-color: rgb(15, 15, 41);
+  margin-top: 10%;
+}
+
+.footer-area h4 {
+  color: orangered;
+  margin-top: 5%;
+}
+
+.footer-area h6 {
+  color: white;
+}
+.footer-area h6 a {
+  text-decoration: none;
+  color: white;
+}
+.footer-area .f1 {
+  padding-top: 100px;
+}
+.icon-box {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  float: left;
+  margin-right: 10px;
+}
+.icon-box:hover {
+  background-color: white;
+}
+.icon-box:hover i {
+  color: orangered;
+}
+
+.icon-box i {
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+input {
+  height: 50px;
+  border: 1px solid orangered;
+}
+
+hr {
+  color: white;
+}
+
+.bottom-nav h6 {
+  display: inline;
+  margin-left: 10px;
+}
+.scroll {
+  height: 50px;
+  width: 50px;
+  background-color: orangered;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+}
+
+.scroll i {
+  color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 
-.image-box{
-   height: 107%;
-    width: 98%;
-    margin-top: 21%;
-    display: flex;
-    flex-wrap:wrap; 
 
-}
-.image-box .image1{
-    height: 50%;
-    width: 48%;
-}
+@media screen and (max-width: 768px) {
 
-.image-box .image2{
-    height: 33%;
-    width: 34%;
-    margin-left: 3%;
-    margin-top: 18%;
-}
+  .navbar{
+      margin-top: -11%;
+    }
 
-.image-box .image3{
-    height: 33%;
-    width: 34%;
-    margin-left: 14%;
-    margin-top: -13%;
-}
+    .logo h2{
+      margin-left: 5%;
+    }
+    .book{
+      text-align: center;
+    }
 
-.image-box .image4{
-   height: 23%;
-    width: 25%;
-    margin-left: 3%;
-    margin-top: -10%;
+    .book2{
+      width: 50%;
+      height: 12%;
+      margin-left:24%;
+      margin-top:5%;
+      border-radius: 9px;
+    }
+    
+    .hero-section h1{
+     text-align: center;
+     padding-left: 0%;
+     font-size: 40px;
+    }
+    .hero-section h6{
+     text-align: center;
+     padding-left: 0%;
+     font-size: 15px;
 
-}
-
-  
-  
-
-.footer-area{
-    background-color:rgb(15, 15, 41);
-    margin-top:10%;
-  }
-  
-  .footer-area h4 {
-    color:orangered;
-    margin-top:5%;
-  }
-  
-  .footer-area h6 {
-    color:white;
-  }
-  .footer-area h6 a{
-    text-decoration: none;
-    color:white;
-  }
+      
+    }
   .footer-area .f1{
-    padding-top: 100px;
-  }
-  .icon-box{
-    height:40px;
-    width:40px;
-    border-radius:50%;
-    border:1px solid white;
-    float:left;
-    margin-right:10px;
-  }
-  .icon-box:hover{
-    background-color:white;
-  }
-  .icon-box:hover i{
-    color:orangered;
-  }
-  
-  .icon-box i{
-    color:white;
-    margin-left:10px;
-    margin-top:10px;
-  }
-  input{
-    height:50px;
-    border:1px solid orangered;
-  }
-  
-  hr{
-    color:white;
-  }
-  
-  .bottom-nav h6 {
-    display: inline;
-    margin-left:10px;
-  }
-  .scroll{
-    height:50px;
-    width:50px;
-    background-color: orangered;
-    position:fixed;
-    bottom:20px;
-    right:50px;
-  }
-  
-  .scroll i{
-    color:white;
-    margin-left:15px;
-    margin-top:15px;
-    font-size:20px;
-  }
+      padding-left:30px;
+
+   }
+
+   
+  .chefs-section .chef-person{
+      /* background-color: pink; */
+      margin-bottom: 25%;
+      padding: 5%;
+      margin-left:4%;
+      margin-right:3%;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+    }
+    
+  .chefs-section .chef-person .profile{
+    
+      margin-left: 16%;
+      margin-top:8%;
+    }
+
+    .down-media{
+      margin-left: -6.5%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+.chefs-section .chef-person .profile{
+  margin-left:2%;
+}
+
+.navbar{
+  margin-top: -20%;
+  margin-right:-4%
+}
+
+}

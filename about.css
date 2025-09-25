@@ -275,6 +275,13 @@
   }
 
 
+  @media screen and (max-width: 860px) {
+    .chefs-section .chef-person .profile{
+      margin-left:14%;
+    }
+  }
+
+
   @media screen and (max-width: 768px) {
 
     .navbar{
@@ -330,12 +337,25 @@
     .chefs-section .chef-person .profile{
         height:250px;
         width:250px;
-        margin-left: 19%;
+        margin-left: 16%;
         margin-top:8%;
       }
 
       .down-media{
         margin-left: -6.5%;
       }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .chefs-section .chef-person .profile{
+    margin-left:2%;
+  }
+  
+  .navbar{
+    margin-top: -20%;
+    margin-right:-4%
+  }
 
 }

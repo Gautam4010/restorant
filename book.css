@@ -1,73 +1,76 @@
 .logo h2{
-    color: #FEAC31;
-    margin-left: 24%;
-    font-size: 277%;
-    font-family: "Ubuntu", sans-serif;
-    margin-top: 3%;
-  
-  }
-  .navbar{
-    background:transparent;
-    color: white;
-    margin-top: 2%;
-    
-  }
-  
-  
-  .nav-link{
-    color:white;
-    margin-left:20px;
-    transition: all 1s;
-  }
+  color: #FEAC31;
+  margin-left: 24%;
+  font-size: 277%;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 3%;
 
+}
+.navbar{
+  background:transparent;
+  color: white;
+  margin-top: 2%;
   
-  .nav-link:hover{
-    color:#FEAC31;
-  }
-  .book{
-    background-color: #FEAC31;
-    margin-left:10px;
-    padding: 2% 16%;
-    box-shadow: inset 5px 5px 15px rgb(223, 123, 10);
-    border-radius:7px;
-    
+}
+
+
+.nav-link{
+  color:white;
+  margin-left:20px;
+  transition: all 1s;
+}
+
+.about{
+  color:orange;
+}
+.nav-link:hover{
+  color:#FEAC31;
+}
+.book{
+  background-color: #FEAC31;
+  margin-left:10px;
+  padding: 2% 16%;
+  box-shadow: inset 5px 5px 15px rgb(223, 123, 10);
+  border-radius:7px;
   
-  }
+
+}
+
+
+.book:hover a{
+  color:white;
+}
+
+
+.book a{
+  text-align: center;
+  color:white;
+  text-decoration: none;
   
-  
-  .book:hover a{
-    color:white;
-  }
-  
-  
-  .book a{
-    text-align: center;
-    color:white;
-    text-decoration: none;
-    
-  }
-  
-  .book2 a{
-    text-align: center;
-  }
-  
-  .top-area{
-    background:linear-gradient(rgba(19, 15, 15, 0.8),rgba(56, 52, 52, 0.8)),url('img/pic1.jpg');
-    background-attachment: fixed;
-    background-color:rgb(36, 36, 61);
-    background-size: cover;
-  }
-  .top-area h1{
-    color:white;
-    font-size: 421%;
-    text-align: center;
-    padding-top:5%;
-  }
-  .top-area h6{
-    color:white;
-    padding-bottom: 12%;
-    text-align: center;
-  }
+}
+
+.book2 a{
+  text-align: center;
+}
+
+.top-area{
+  background:linear-gradient(rgba(19, 15, 15, 0.8),rgba(56, 52, 52, 0.8)),url('img/pic1.jpg');
+  background-attachment: fixed;
+  background-color:rgb(36, 36, 61);
+  background-size: cover;
+}
+.top-area h1{
+  color:white;
+  font-size: 421%;
+  text-align: center;
+  padding-top:5%;
+}
+.top-area h6{
+  color:white;
+  padding-bottom: 12%;
+  text-align: center;
+}
+
   .booking-form{
     padding-top:2%;
   }
@@ -107,6 +110,7 @@
   .button{
     width:84%;
     margin-bottom:5%; 
+    
   }
 .form-left img{
     width:100%;
@@ -158,7 +162,7 @@
   }
   input{
     height:50px;
-    border:1px solid orangered;
+    border:none;
   }
   
   hr{
@@ -183,4 +187,62 @@
     margin-left:15px;
     margin-top:15px;
     font-size:20px;
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+   
+
+    .navbar{
+      background:transparent;
+      color: white;
+      margin-top: -11%;
+    }
+
+    .logo h2{
+      margin-left: 5%;
+    
+    }
+    .book{
+      text-align: center;
+    }
+
+  /* form section*/
+    .booking-form .form{
+      margin-top:22px;
+    }
+    .row1{
+      width:98%;
+    }
+
+    .row2 {
+      width: 46%;
+    }
+  
+    .message {
+        width: 98%;
+    }
+    .button {
+      width: 98%;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 392px) 
+  {
+      .navbar{
+        background:transparent;
+        color: white;
+        margin-top: -17%;
+        margin-right:-3%;
+      }
+    
+
   }
